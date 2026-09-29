@@ -1,0 +1,21 @@
+# Blue Current
+
+> Blue Current is a leader in next-generation solid-state battery technology, pioneering fully dry, silicon-first elastic composite batteries that offer high energy density, inherent safety, low operating pressure, and cost-effective scalability for electric vehicles, wearables, and stationary storage.
+
+## Key Battery Highlights
+
+- **Proprietary Elastic Composite:** Proprietary elastic polymers in the composite solve the industry’s expansion problem and increase energy density.
+- **Inherent Safety & Efficiency:** Contains no flammable liquids or gels, eliminating fire risks and removing expensive, time-consuming manufacturing steps.
+- **Silicon-First Anode:** Silicon is Earth-abundant, high-capacity, and inherently safe.
+- **Performance Metrics:** 
+  - **More Power:** 750+ Wh/L energy density.
+  - **More Cycles:** 2,000+ full depth cycles.
+  - **Less Cost:** 20% lower cost compared to conventional alternatives.
+
+## Core Pages
+
+- [Blue Current Homepage](https://bluecurrent.com/): Overview of Blue Current's vision, safe silicon-first battery platform, high energy density capabilities, and key application areas across mobility and electronics.
+- [Technology](https://bluecurrent.com/technology/): Deep dive into Blue Current's fully dry elastic composite electrolyte, silicon composite anode, low-pressure cell cycling, thermal stability, and high-volume manufacturing compatibility.
+- [About Us](https://bluecurrent.com/about/): Information on the company's mission, executive leadership, company timeline, state-of-the-art Hayward (CA) development facility, and major strategic investors.
+- [News & Press](https://bluecurrent.com/news/?filter=): Latest company news, funding announcements, technical milestones, third-party safety validation, and press releases.
+- [Contact Us](https://bluecurrent.com/contact/): Contact form and inquiries for partnerships, technical collaborations, customer engagement, and general feedback.

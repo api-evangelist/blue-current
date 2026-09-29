@@ -1,23 +1,66 @@
 aid: blue-current
+
 name: Blue Current
-description: 'Blue Current is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Blue Current is a stub entry created by the API Evangelist harvest process, representing a company identified in secondary-market data sources. The entry serves as a placeholder for future enrichment, awaiting verification of its official website, detailed description, and associated API documentation. This placeholder enables the profiling pipeline to track and eventually incorporate comprehensive information about the company’s services, products, and technical interfaces as they become available.'
+
 url: https://raw.githubusercontent.com/api-evangelist/blue-current/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-29 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-29'
+
 modified: '2026-09-29'
+
 tags:
 - Company
-apis: []
+- Battery
+- Energy
+- Silicon
+- Startup
+- Hayward
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/blue-current-llms.txt
+- type: Hosts
+  url: hosts/blue-current-hosts.yml
+- type: Newsroom
+  url: https://bluecurrent.com/news/
+- type: DomainSecurity
+  url: security/blue-current-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/blue-current_stock/
+  url: https://bluecurrent.com/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-29'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://forgeglobal.com/blue-current_stock/
+    status: 403
+x-enrichment:
+  date: '2026-09-29'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
